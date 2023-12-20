@@ -72,7 +72,7 @@ function TodoList() {
   // Rendu du composant TodoList
   return (
     <div className="container mt-5">
-        <h1 className="text-center mb-4">Ma Todo List</h1>
+        <h1 className="text-center mb-4">To Do List</h1>
         <form onSubmit={ajouterTache} className="mb-3">
             <input
                 type="text"
